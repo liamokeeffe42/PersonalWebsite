@@ -1,0 +1,23 @@
+#container-navbar {
+    width: fit-content;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+    a {
+        padding-bottom: 8px;
+        margin: 0px 35px 0px 35px;
+        text-decoration: none;
+        font-family: 'Roboto Condensed', sans-serif;
+        src: url(../../assets/fonts/RobotoCondensed-Regular.ttf) format('ttf');
+    }
+    a:visited {
+        color: white;
+    }
+    a:hover {
+        border-bottom: 2px solid #95C8D8;
+        border-bottom-width: thin;
+        color: #95C8D8;
+    }

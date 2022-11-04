@@ -1,0 +1,14 @@
+#container-header {
+    display: flex;
+    /* width: 100%; */
+    /* border: 1px solid white; */
+    align-items: center;
+}
+    #container-logo, #container-right {
+        flex : 1;
+    }
+
+#img-logo {
+    width: 225px;
+    height: 125px;
+}
