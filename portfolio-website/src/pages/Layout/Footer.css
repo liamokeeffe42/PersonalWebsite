@@ -1,0 +1,165 @@
+#container-footer {
+    background: #708090;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+}
+    hr {
+        width: 80%;
+        margin: 20px;
+    }
+    h2 {
+        color: white;
+        margin-bottom: 30px;
+    }
+
+#container-footer-bottom {
+    display: flex;
+    width: 85%;
+    align-items: center;
+}
+    #container-footer-contact {
+        flex: .6;
+        display: flex;
+        flex-direction: column;
+        margin-right: 4%;
+        /* border: 2px solid white; */
+        justify-content: space-around;
+    }
+        #container-footer-menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 15%;
+        }
+            #container-footer-menu p {
+                color: white;
+            }
+            .footer-menu-title {
+                color: white;
+                font-weight: bold;
+                border-bottom: 2px solid #75e3da;
+                padding-bottom: 2px;
+                height: fit-content;
+                width: fit-content;
+            }
+
+        #container-footer-links {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+            #container-contact-info {
+                display: flex;
+                flex-direction: column;
+                border-right: 2px solid #75e3da;
+                padding-right: 8%;
+            }
+                #container-contact-info div {
+                    margin: 10px 0px 10px 0px;
+                    display: flex;
+                }
+            .footer-icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+            .footer-icon-social {
+                width: 35px;
+                height: 35px;
+                margin-right: 15px;
+            }
+    #container-footer-email {
+        flex: .7;
+        position: relative;
+    }
+        #footer-form {
+            background-color: black;
+            padding: 15px 15px;
+            border-radius: 4px;
+        }
+            #footer-form h3 {
+                color: white;
+                text-align: center;
+            }
+            .footer-input {
+                display: block;
+                margin-top: 10px;
+                margin-bottom: 5px;
+                border: 0;
+                border-bottom: 2px solid white;
+                outline: 0;
+                color: black;
+                background: transparent;
+                transition: border-color 0.2s;
+                padding: 7px 0px 5px 8px;
+                font-size: 1rem;
+                width: 50%;
+            }
+            .footer-input::placeholder {
+                color: transparent;
+            }
+            .footer-input:placeholder-shown + .footer-label {
+                cursor: text;
+                top: -28px;
+            }
+            #footer-input-textarea:placeholder-shown + #footer-label-textarea {
+                cursor: text;
+                top: -28px;
+            }
+            .footer-label, #footer-label-textarea {
+                position: relative;
+                top: -58px;
+                display: block;
+                transition: .2s;
+                color: white;
+                padding-left: 8px;
+            }
+            #footer-label-textarea {
+                top: -163px;
+            }
+            .footer-input:focus,
+            #footer-input-textarea:focus {
+                padding-bottom: 8px;  
+                font-weight: 700;
+                border-width: 3px;
+                border-image: linear-gradient(to right, #75e3da,#38ef7d);
+                border-image-slice: 1;
+            }
+            .footer-input:focus + .footer-label,
+            .footer-input:focus + #footer-label-textarea {
+                position: relative;
+                top: -58px;
+                display: block;
+                transition: .2s;
+                color: #75e3da;
+            }
+            #footer-input-textarea:focus + #footer-label-textarea {
+                top: -163px;
+            }
+            #footer-input-textarea {
+                height: 80px;
+                width: 90%;
+                resize: none;
+            }
+            .footer-input-required {
+                visibility: hidden;
+            }
+            #footer-btn-submit {
+                background-color: #75e3da;
+                border: 0;
+                border-radius: 4px;
+                height: 25px;
+                width: 60px;
+                margin-left: 8px;
+            }
+    #container-footer-logo {
+        flex: 1;
+    }
+
+p, span {
+    font-family: 'Roboto Condensed', sans-serif;
+    src: url(../../assets/fonts/RobotoCondensed-Regular.ttf) format('ttf');
+    color: black;
+}
