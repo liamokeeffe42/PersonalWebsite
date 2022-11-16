@@ -1,0 +1,31 @@
+
+#portfolio-text {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -2px;
+}
+
+#portfolio-grid {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 225px 225px;
+    grid-row: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+    .portfolio-grid-item {
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .grid-item-title {
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .grid-item-text {
+        color: black;
+    }

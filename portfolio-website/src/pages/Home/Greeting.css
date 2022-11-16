@@ -1,0 +1,14 @@
+#greeting-container-title {
+    color: white;
+}
+    #greeting-btn-learnmore {
+        background: none;
+        color: #75e3da;
+        padding: 3%;
+        border-radius: 4px;
+        border: 1px solid #75e3da;
+    }
+
+#greeting-img-portrait {
+    display: inline;
+}

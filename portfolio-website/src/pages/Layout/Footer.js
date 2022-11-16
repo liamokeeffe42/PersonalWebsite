@@ -13,7 +13,7 @@ function Footer() {
     return (
         <div id="container-footer">
             <div id="container-footer-contact">
-                <h2>Message Me</h2>
+                <h2 className="home-module-title">Message Me</h2>
                 <div id="container-footer-links">
                     <div id="container-contact-info">
                         <div>

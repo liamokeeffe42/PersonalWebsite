@@ -19,7 +19,7 @@
     flex-direction: column;
 }
     #container-footer-contact h2 {
-        color: #75e3da;
+        color: white;
         margin-top: -28%;
         margin-bottom: 15%;
         font-family: 'Andika', sans-serif;
@@ -31,7 +31,6 @@
         align-items: center;
         flex-direction: row;
         margin-bottom: 10%;
-        /* border: 2px solid black; */
         width: 100%;
         justify-content: space-around;
     }
